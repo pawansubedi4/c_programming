@@ -2,15 +2,15 @@
 int findhcf(int a, int b);
 int findhcf(int a, int b) 
 {
-    while (b != 0) 
+	if (b!=0)
 	{
-        int temp = b;
-        b = a % b;
-        a = temp;
-    }
-    return a;
+		return findhcf(b,a%b);
+	}
+	else
+	{
+		return a;
+	}
 }
-
 int main() 
 {
     int num1, num2; 

@@ -7,7 +7,6 @@ int main()
 	scanf("%d",&n);
 	while (n>0)
 	{
-		r=n%10;
 		i++;
 		n=n/10;	
 	}

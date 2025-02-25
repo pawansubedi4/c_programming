@@ -2,10 +2,7 @@
 int fib(int a,int b,int n);
 int main()
 {
-	int i;
-	printf("enter the size of fib");
-	scanf("%d",&i);
-	fib(1,1,i);
+	fib(1,1,10);
 	return 0;
 }
 int fib(int a,int b,int n)
